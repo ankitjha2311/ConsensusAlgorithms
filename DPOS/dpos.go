@@ -137,6 +137,6 @@ func main() {
 		fmt.Println(blockchain[i+1])
 		i++
 		j++
-		j = j % len(superStarNodesPool) //Super nodes obtain the right to produce blocks in a round-robin fashion
+		j = j % len(superStarNodesPool)
 	}
 }
