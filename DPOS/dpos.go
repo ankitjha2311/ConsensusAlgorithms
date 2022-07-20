@@ -13,9 +13,9 @@ import (
 )
 
 const (
-	voteNodeNum      = 100
-	superNodeNum     = 10
-	mineSuperNodeNum = 3
+	voteNodeNum      = 200
+	superNodeNum     = 20
+	mineSuperNodeNum = 5
 )
 
 type block struct {
